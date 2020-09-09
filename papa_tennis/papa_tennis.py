@@ -13,7 +13,7 @@ import pprint
 
 def reqpage():
     tot=0
-    fil= open("C:/Users/keshav/Desktop/matches.txt","w+")
+    fil= open("C:/Users/keshav/PycharmProjects/papa_sport/papa_tennis/tennis_fixtures.txt","w+")
     options = webdriver.ChromeOptions()
     driver = webdriver.Chrome(executable_path="C:/bin/chromedriver.exe", options=options)
     driver.get(f"https://www.dafabet.com/en/dfgoal/sports/239-tennis")
